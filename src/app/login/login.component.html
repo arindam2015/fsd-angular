@@ -1,0 +1,16 @@
+<strong *ngIf="submitMessage" class="error-message">{{submitMessage}}</strong>
+
+<form (ngSubmit)="loginSubmit()" class="login-form">
+  <mat-form-field>
+    <input matInput type="text" placeholder="Username" class="username" [formControl]="username">
+    <mat-error *ngIf="username.invalid && (username.dirty || username.touched)">Username Cannot Be Left Blank</mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput type="password" class="password" placeholder="Password" [formControl]="password">
+    <mat-error *ngIf="password.invalid && (password.dirty || password.touched)">
+      <mat-error *ngIf="password.errors.required">Password Cannot Be Left Blank</mat-error>
+      <mat-error *ngIf="password.errors.minlength">Password Must Have Minimum 6 Characters</mat-error>
+    </mat-error>
+  </mat-form-field>
+  <button  type="submit" [disabled]="(username.invalid || password.invalid)">Submit</button>
+</form>

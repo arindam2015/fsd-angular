@@ -1,0 +1,7 @@
+.keep-c-list-container
+{
+    width: 30%;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+}

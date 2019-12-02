@@ -1,0 +1,20 @@
+<mat-toolbar color="primary">Keep
+	<div class="keep-c-toggle-view" >
+				
+		<i *ngIf="isNoteView" class="material-icons switchToListView" (click)="toggle()">view_list
+			<!-- <app-list-view></app-list-view> -->
+			
+		</i>
+		
+		
+		
+		<i *ngIf="!isNoteView" class="material-icons switchToNoteView" (click)="toggle()">view_quilt
+			<!-- <app-note-view></app-note-view>				 -->
+			
+		</i>
+		
+		
+		
+		
+	</div>
+</mat-toolbar>

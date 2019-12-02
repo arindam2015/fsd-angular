@@ -1,0 +1,58 @@
+{
+  "notes": [
+    {
+      "title": "Read Angular8 blog",
+      "text": "Shall do at 9 pm",
+      "state": "completed",
+      "id": 1
+    },
+    {
+      "title": "Test1",
+      "text": "all are scripted",
+      "state": "started",
+      "id": 2
+    },
+    {
+      "title": "Capitalism",
+      "text": "Mark Twain",
+      "state": "completed",
+      "id": 3
+    },
+    {
+      "title": "Java 8",
+      "text": "start from August 17",
+      "state": "not-started",
+      "id": 4
+    },
+    {
+      "title": "Angular 5",
+      "text": "start from August 15",
+      "state": "started",
+      "id": 5
+    },
+    {
+      "title": "Read Angular 1 blog",
+      "text": "Shall do at 13.30 pm",
+      "state": "started",
+      "id": 6
+    },
+    {
+      "title": "Docker",
+      "text": "Will start from September 2019",
+      "state": "not-started",
+      "id": 7
+    },
+    {
+      "title": "Read Angular 1 blog",
+      "text": "Shall do at 10.30 pm",
+      "state": "not-started",
+      "id": 8
+    },
+    {
+      "title": "Read Angular 1 blog",
+      "text": "Shall do at 10.30 pm",
+      "state": "not-started",
+      "id": 9
+    }
+  ]
+}

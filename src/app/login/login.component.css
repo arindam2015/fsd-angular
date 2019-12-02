@@ -1,0 +1,27 @@
+.login-form{
+    border:2px solid navy;
+    padding:10px;
+    margin:auto;
+    width:30vw;
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width:10vw;
+}
+
+.error-message{
+    font-size: 15pt;
+    color: brown;
+}
+
+.username{
+    font-size: 12pt;
+    color:blue;
+}
+
+.password{
+    color:blue;
+}

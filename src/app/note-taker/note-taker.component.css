@@ -1,0 +1,33 @@
+.error-message {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .note-container
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  
+  .note-expansion-panel
+  {
+    margin: 0 auto;
+    width: 70vw;
+  }
+  
+  .note-inputs
+  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .noteButton {
+    display: flex;
+    justify-content: center;
+    
+  }
+  

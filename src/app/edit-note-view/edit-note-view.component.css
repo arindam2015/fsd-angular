@@ -1,0 +1,9 @@
+.error-message {
+    color: red;
+    font-weight: bold;
+  }
+.note-form
+{
+    display: flex;
+    flex-direction: column;
+}
